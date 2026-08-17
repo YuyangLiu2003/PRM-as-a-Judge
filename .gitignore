@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests
+tests/
+.github/workflows/release-smoke.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Generated runtime artifacts
+outputs/
+unsloth_compiled_cache/
+
+# Eval runtime outputs
+eval/results/*
+!eval/results/.gitkeep
+eval/results_*/
+eval/**/.cache/

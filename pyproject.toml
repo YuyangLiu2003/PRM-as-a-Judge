@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prm-as-a-judge"
+version = "1.5.0"
+description = "Manifest-based PRM-as-a-Judge evaluation toolkit for robotic rollouts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+  {name = "PRM-as-a-Judge Team"}
+]
+dependencies = [
+  "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+dopamine = [
+  "torch>=2.8,<2.9",
+  "transformers>=4.57,<4.58",
+  "vllm>=0.11,<0.12",
+  "numpy>=2.2,<2.3",
+  "opencv-python-headless>=4.12,<4.13",
+  "Pillow>=11.3,<12",
+  "matplotlib>=3.10,<3.11",
+  "tqdm>=4.67,<5",
+  "moviepy>=2.2,<2.3",
+  "huggingface_hub>=0.36,<0.37",
+]
+robometer = ["numpy", "requests", "opencv-python"]
+visualize = ["matplotlib"]
+notebook = [
+  "ipykernel>=6.29,<7",
+  "jupyterlab>=4.4,<5",
+]
+
+[project.scripts]
+prm-judge = "prm_judge.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "eval"}
+
+[tool.setuptools.packages.find]
+where = ["eval"]
+include = ["prm_judge*"]
+
+[tool.setuptools.package-data]
+prm_judge = ["assets/*.js", "assets/*.txt"]
