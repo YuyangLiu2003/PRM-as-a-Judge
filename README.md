@@ -256,7 +256,19 @@ If you'd like to discuss PRM-as-a-Judge, benchmark setup, or rollout evaluation 
 
 ## 📑 Citation
 
-If this project, leaderboard, or evaluation pipeline helps your work, please cite:
+If this project, leaderboard, or evaluation pipeline helps your work, please cite the [PRM-as-a-Judge 1.5 technical report](https://arxiv.org/pdf/2608.14284):
+
+```bibtex
+@article{liu2026prmjudge15,
+  title   = {PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment},
+  author  = {Liu, Yuyang and Shen, Yanqing and Chen, Ruike and Zhao, Jifan and Tian, Yuxuan and Zhang, Yichi and Long, Tianfeng and Yin, Zixuan and Wang, Yipu and Qin, Ziheng and Tan, Wenxing and Shi, Yang and Cao, Mingyu and Xiao, Runze and Wang, Ziqi and Yin, Zhixin and Chu, Shiwei and Zhang, Yi-Fan and Mu, Yao and Ji, Yuheng and Wang, Yihao and Yan, Jun and Wang, Zhongyuan and Wang, Pengwei and Zheng, Xiaolong},
+  journal = {arXiv preprint arXiv:2608.14284},
+  year    = {2026},
+  url     = {https://arxiv.org/pdf/2608.14284}
+}
+```
+
+For the original PRM-as-a-Judge paper, please cite:
 
 ```bibtex
 @article{ji2026prmjudge,
