@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="figs/logo-clip.png" alt="PRM-as-a-Judge logo" width="42" style="vertical-align: -0.14em; margin-right: -5px;">
-  PRM-as-a-Judge 1.5:<br>
-  A Practical Toolkit for Robot Process Auditing
+  PRM-as-a-Judge 1.5<br>
+  A Toolkit for Robot Process Assessment
 </h1>
 
 <h3 align="center">Beyond pass/fail, toward process-level robot evaluation.</h3>
