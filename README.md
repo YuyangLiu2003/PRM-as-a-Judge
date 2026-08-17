@@ -9,6 +9,8 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2603.21669"><img src="https://img.shields.io/badge/arXiv-2603.21669-b31b1b.svg?logo=arxiv" alt="arXiv"></a>
   &nbsp;
+  <a href="https://arxiv.org/abs/2608.14284"><img src="https://img.shields.io/badge/arXiv-1.5%20TR%20%7C%202608.14284-b31b1b.svg?logo=arxiv" alt="PRM-as-a-Judge 1.5 Technical Report"></a>
+  &nbsp;
   <a href="https://prm-as-a-judge.github.io/"><img src="https://img.shields.io/badge/🏠%20Project-Homepage-blue" alt="Project Homepage"></a>
   &nbsp;
   <a href="https://prm-as-a-judge.github.io/doc.html"><img src="https://img.shields.io/badge/📖%20Docs-User%20Guide-2d68c4" alt="User Guide"></a>
@@ -70,10 +72,10 @@ In the example below, both policies attempt to take a tissue from the box. PRM-a
   <img src="figs/case.png" width="92%" alt="Case-level OPD analysis with progress curve and trajectory events">
 </p>
 
-Want to inspect trajectories frame by frame? The blog includes an interactive explorer with progress curves, metric summaries, and frame-level interpretations: [https://prm-as-a-judge.github.io/blog.html#interactive-trajectory-explorer](https://prm-as-a-judge.github.io/blog.html#interactive-trajectory-explorer)
+Want to inspect trajectories frame by frame? The blog includes an interactive explorer with progress curves, metric summaries, and frame-level interpretations: [https://prm-as-a-judge.github.io/blog-introducing-prm-as-a-judge-1.5.html#interactive-trajectory-explorer](https://prm-as-a-judge.github.io/blog-introducing-prm-as-a-judge-1.5.html#interactive-trajectory-explorer)
 
 <p align="center">
-  <a href="https://prm-as-a-judge.github.io/blog.html#interactive-trajectory-explorer">
+  <a href="https://prm-as-a-judge.github.io/blog-introducing-prm-as-a-judge-1.5.html#interactive-trajectory-explorer">
     <img src="figs/progress_case.png" width="74%" alt="Interactive trajectory explorer preview">
   </a>
 </p>
@@ -218,7 +220,7 @@ Configure additional views, evaluation modes, GPUs, curve processing, metrics, o
 - [x] Release RoboChallenge Table30 OPD results on the [online leaderboard](https://prm-as-a-judge.github.io/leaderboard.html).
 - [x] Release the [evaluator inference toolkit](#-quick-start) for offline trajectory scoring.
 - [x] Release standardized [RoboPulse](https://huggingface.co/datasets/yuheng2000/RoboPulse) access and evaluation protocol.
-- [ ] Release the PRM-as-a-Judge 1.5 technical report, featuring expanded metrics, representative case studies, and our new trajectory-level benchmark, **RoboPulse++**. ***(Coming soon; expected in about 2 weeks.)***
+- [x] Release the PRM-as-a-Judge 1.5 technical report, featuring expanded metrics, representative case studies, and our new trajectory-level benchmark, **RoboPulse++**. ***(Coming soon; expected in about 2 weeks.)***
 - [ ] Release PRM-as-a-Judge 2.0 with a new Judge Model that is **faster, stronger, more practical**, and requires no additional compute resources. ***(Coming soon; expected in about 2–3 months.)***
 
 ## ❓ FAQ
