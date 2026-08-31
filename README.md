@@ -19,7 +19,7 @@
   &nbsp;
   <a href="https://prm-as-a-judge.github.io/leaderboard.html"><img src="https://img.shields.io/badge/🏆%20Leaderboard-RoboChallenge%20Table30-orange" alt="Leaderboard"></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/🤗%20Benchmark-RoboPulse%2B%2B%20%28Coming%20Soon%29-gold" alt="RoboPulse++ Benchmark Coming Soon">
+  <a href="https://huggingface.co/datasets/lyy0715/RoboPulsePlusPlus"><img src="https://img.shields.io/badge/🤗%20Benchmark-RoboPulse%2B%2B-gold" alt="RoboPulse++ Benchmark"></a>
   &nbsp;
   <a href="https://huggingface.co/tanhuajie2001/Robo-Dopamine-GRM-2.0-8B-Preview"><img src="https://img.shields.io/badge/🤗%20PRM-Robo--Dopamine%208B%20Preview-yellow" alt="PRM"></a>
   &nbsp;
@@ -39,7 +39,8 @@
 >
 > We warmly welcome researchers and benchmark teams to apply PRM-as-a-Judge to their own embodied task evaluations. We are happy to provide hands-on guidance on rollout preparation, metric interpretation, and evaluation integration. Please contact us through the WeChat group below or by email at `liuyuyang2025@ia.ac.cn`.
 
-- **`2026-08-14`**: 📝 **PRM-as-a-Judge 1.5 technical report released:** Our new report, [PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment](https://arxiv.org/abs/2608.14284), presents expanded metrics, representative case studies, **RoboPulse++**, and a reproducible robot process assessment suite.
+- **`2026-08-31`**: 🤗 **RoboPulse++ benchmark released:** [RoboPulse++](https://huggingface.co/datasets/lyy0715/RoboPulsePlusPlus) is now open on Hugging Face for trajectory-level progress-judge evaluation.
+- **`2026-08-14`**: 📝 **PRM-as-a-Judge 1.5 technical report released:** Our new report, [PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment](https://arxiv.org/abs/2608.14284), presents expanded metrics, representative case studies, [RoboPulse++](https://huggingface.co/datasets/lyy0715/RoboPulsePlusPlus), and a reproducible robot process assessment suite.
 - **`2026-07-19`**: 📖 **Official User Guide released for easier onboarding:** Published a step-by-step [Quick Start and Advanced Guide](https://prm-as-a-judge.github.io/doc.html) to help users run the complete workflow from installation and demo evaluation to visualization and advanced configuration.
 - **`2026-07-13`**: 📊 **Major visualization upgrade:** Released an interactive evaluation report system with model- and task-level dashboards, failure diagnostics, and synchronized rollout video–progress inspection through `prm-judge visualize`.
 - **`2026-07-10`**: 📏 **Major metric-system upgrade:** Introduced an expanded trajectory-level metric framework for evaluating progress quality, stagnation, regression, recovery, and failure characteristics beyond conventional success rates.
@@ -220,7 +221,7 @@ Configure additional views, evaluation modes, GPUs, curve processing, metrics, o
 - [x] Release RoboChallenge Table30 OPD results on the [online leaderboard](https://prm-as-a-judge.github.io/leaderboard.html).
 - [x] Release the [evaluator inference toolkit](#-quick-start) for offline trajectory scoring.
 - [x] Release standardized [RoboPulse](https://huggingface.co/datasets/yuheng2000/RoboPulse) access and evaluation protocol.
-- [x] Release the PRM-as-a-Judge 1.5 technical report, featuring expanded metrics, representative case studies, and our new trajectory-level benchmark, **RoboPulse++**. ***(Coming soon; expected in about 2 weeks.)***
+- [x] Release the PRM-as-a-Judge 1.5 technical report, featuring expanded metrics, representative case studies, and our new trajectory-level benchmark, [RoboPulse++](https://huggingface.co/datasets/lyy0715/RoboPulsePlusPlus).
 - [ ] Release PRM-as-a-Judge 2.0 with a new Judge Model that is **faster, stronger, more practical**, and requires no additional compute resources. ***(Coming soon; expected in about 2–3 months.)***
 
 ## ❓ FAQ
